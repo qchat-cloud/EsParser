@@ -1,0 +1,22 @@
+{
+  "name": "since/esparser",
+  "description": "es php library",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Since\\Esparser\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "yangyang",
+      "email": "529393997@qq.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=7.4",
+    "ext-json": "*",
+    "ext-curl": "*"
+  }
+}
